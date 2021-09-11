@@ -3,7 +3,7 @@
 
 title: DaanMatch Onboarding Fall
 author: Patrick Guo
-logo: logo.jpg
+logo: images/logo.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
