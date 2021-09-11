@@ -1,12 +1,12 @@
 # Data Pipeline
 
-:::{admonition} Goal
+```{admonition} Goal
 Set of processes for:
 - Extracting data from data sources
 - Transforming data
 - Loading into an output destination like data warehouse
 From there data can be consumed for training or making predictions with ML models
-:::
+```
 
 
 Batch Data
@@ -21,6 +21,5 @@ It has to be extracted from multiple sources like log files, steraming sources, 
 3. Loaded into a data base for prediction.
 This is done through ETL pipelines.
 
-<img src="../images/fun-fish.png" alt="fishy" width="200px">
 
 
