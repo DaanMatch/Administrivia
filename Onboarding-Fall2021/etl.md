@@ -16,7 +16,7 @@ Streaming Data
 : Real-time streaming data, like data from sensors.
 
 1. Before data is used for making batch predictions:
-It has to be extracted from multiple sources like log files, steraming sources, APIs, apps etc.
+It has to be extracted from multiple sources like log files, streaming sources, APIs, apps etc.
 2. Transformed
 3. Loaded into a data base for prediction.
 This is done through ETL pipelines.

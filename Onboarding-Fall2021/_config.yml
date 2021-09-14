@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: DaanMatch 2021
-author: Patrick Guo
+author: DaanMatch
 logo: images/logo.jpg
 
 # Force re-execution of notebooks on each build.
