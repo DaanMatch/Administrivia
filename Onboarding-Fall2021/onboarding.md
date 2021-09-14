@@ -1,12 +1,25 @@
-# Hello! 😀
+# Onboarding Overview 😀
 Welcome to DaanMatch! We're so glad to have you 😃
 Here's a list of action items to help you get started.
 
 ## Your Team 👥
-- Patrick Guo
+```{tabbed} Team Kenneth
+- Sophie
+- Mitchell
+- Apoorv
+```
+
+```{tabbed} Team Patrick
 - Ge Li (Donny)
 - Yunshen Song (Harry)
 - Sanik Malepati
+```
+
+```{tabbed} Team Ranjeet
+- Aileen Peralta
+- Huahan (Wayne) Wang
+- Mark Yang
+```
 
 ## Getting Set Up ✅
 - [ ] Join DaanMatch Slack Workspace

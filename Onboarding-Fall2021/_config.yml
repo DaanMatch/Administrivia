@@ -4,6 +4,7 @@
 title: DaanMatch 2021
 author: DaanMatch
 logo: images/logo.jpg
+copyright: "2021"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
