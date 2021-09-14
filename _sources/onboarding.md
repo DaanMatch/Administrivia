@@ -1,12 +1,25 @@
-# Hello! 😀
+# Onboarding Overview 😀
 Welcome to DaanMatch! We're so glad to have you 😃
 Here's a list of action items to help you get started.
 
 ## Your Team 👥
-- Patrick Guo
+```{tabbed} Team Kenneth
+- Sophie
+- Mitchell
+- Apoorv
+```
+
+```{tabbed} Team Patrick
 - Ge Li (Donny)
 - Yunshen Song (Harry)
 - Sanik Malepati
+```
+
+```{tabbed} Team Ranjeet
+- Aileen Peralta
+- Huahan (Wayne) Wang
+- Mark Yang
+```
 
 ## Getting Set Up ✅
 - [ ] Join DaanMatch Slack Workspace
@@ -15,6 +28,8 @@ Here's a list of action items to help you get started.
 - [ ] Request access to AWS Management Console
 - [ ] Clone the [Codebook](https://github.com/DaanMatch/Codebook) repo
 - [ ] Clone the [ngodata](https://github.com/DaanMatch/ngodata) repo
+
+- [] Read [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 
 ## Schedule 📅
 - [ ] Set up weekly team meeting times.
