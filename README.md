@@ -1,6 +1,12 @@
 # Administrivia
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)]( https://daanmatch.github.io/Administrivia/)
 
+# Prerequisites
+```
+pip install -U jupyter-book
+pip install ghp-import
+```
+
 
 ## Updating Jupyter Book
 Rebuild HTML files 
