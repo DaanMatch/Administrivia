@@ -2,7 +2,7 @@
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)]( https://daanmatch.github.io/Administrivia/)
 
 
-# Updating Jupyter Book
+## Updating Jupyter Book
 Rebuild HTML files 
 ```
 jb build <book name>
