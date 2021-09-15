@@ -4,7 +4,7 @@ Welcome to DaanMatch! We're so glad to have you 😃\
 We are looking forward to meeting and working with you.\
 We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
-## Day 1
+## Day 1 - Thursday, September 16 2021 on [Google Meet](https://meet.google.com/zmi-vmny-zby) 
 
 On your first day, you'll dive into life at DaanMatch:
 
@@ -39,20 +39,34 @@ The following days, the onboarding will allow you to train yourself gradually on
 - Mark Yang
 ```
 
+##  Resources
 ````{panels}
 :column: col-4
 :card: border-2
+Cara Foss Arellano
+^^^
+cara.arellano@berkeley.edu
+14083935646
+---
 Kenneth Kron
 ^^^
-Body A
+kronsensei@gmail.com
+16503880881
+---
+Patrick Guo
+^^^
+guopatrick.comping@gmail.com
+15107178380
 ---
 Ranjeet Tate
 ^^^
-Body B
+isaranjeet@gmail.com
+17163521215
 ---
-Cara Foss Arellano
+Brian Piller
 ^^^
-Body C
+pillerbrian56@gmail.com
+15874295428
 ````
 
 ## Getting Set Up ✅
