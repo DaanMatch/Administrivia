@@ -1,12 +1,13 @@
 # Onboarding Overview 😀
-Welcome to DaanMatch! We're so glad to have you 😃
-Here's a list of action items to help you get started.
+Welcome to DaanMatch! We're so glad to have you 😃\
+We are looking forward to meeting and working with you.\
+We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
 ## Your Team 👥
 ```{tabbed} Team Kenneth
-- Sophie
-- Mitchell
-- Apoorv
+- Sehwa Ryu (Sophie)
+- Mitchell Wong
+- Apoorv Lawange
 ```
 
 ```{tabbed} Team Patrick
@@ -20,6 +21,9 @@ Here's a list of action items to help you get started.
 - Huahan (Wayne) Wang
 - Mark Yang
 ```
+
+
+
 
 ## Getting Set Up ✅
 - [ ] Join DaanMatch Slack Workspace
