@@ -35,9 +35,25 @@ The following days, the onboarding will allow you to train yourself gradually on
 
 ```{tabbed} Team Ranjeet
 - Aileen Peralta
-- Huahan (Wayne) Wang
+- Haohan (Wayne) Wang
 - Mark Yang
 ```
+
+````{panels}
+:column: col-4
+:card: border-2
+Kenneth Kron
+^^^
+Body A
+---
+Ranjeet Tate
+^^^
+Body B
+---
+Cara Foss Arellano
+^^^
+Body C
+````
 
 ## Getting Set Up ✅
 
