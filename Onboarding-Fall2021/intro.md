@@ -22,8 +22,6 @@ On your first day, you'll dive into life at DaanMatch:
 ## Comunity Agreements
 [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 
-## Slack Etiquette 💬
-
 ```{admonition} Slack Etiquette 💬
 :class: tip
 1. **Check Slack daily.** Slack will be our main media for communications.
