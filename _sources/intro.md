@@ -4,7 +4,7 @@ Welcome to DaanMatch! We're so glad to have you 😃\
 We are looking forward to meeting and working with you.\
 We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
-## Day 1 - Thursday, September 16 2021 on [Google Meet](https://meet.google.com/zmi-vmny-zby) 
+## Day 1 - Thursday, September 16 2021 on [Google Meet](https://meet.google.com/zmi-vmny-zby)
 
 On your first day, you'll dive into life at DaanMatch:
 
@@ -39,35 +39,35 @@ The following days, the onboarding will allow you to train yourself gradually on
 - Mark Yang
 ```
 
-##  Resources
-````{panels}
-:column: col-4
+## Resources
+
+```{panels}
 :card: border-2
 Cara Foss Arellano
 ^^^
-cara.arellano@berkeley.edu
+cara.arellano@berkeley.edu\
 14083935646
 ---
 Kenneth Kron
 ^^^
-kronsensei@gmail.com
+kronsensei@gmail.com\
 16503880881
 ---
 Patrick Guo
 ^^^
-guopatrick.comping@gmail.com
+guopatrick.comping@gmail.com\
 15107178380
 ---
 Ranjeet Tate
 ^^^
-isaranjeet@gmail.com
+isaranjeet@gmail.com\
 17163521215
 ---
 Brian Piller
 ^^^
-pillerbrian56@gmail.com
+pillerbrian56@gmail.com\
 15874295428
-````
+```
 
 ## Getting Set Up ✅
 
@@ -77,13 +77,18 @@ pillerbrian56@gmail.com
 - [ ] Request access to AWS Management Console
 - [ ] Clone the [Codebook](https://github.com/DaanMatch/Codebook) repo
 - [ ] Clone the [ngodata](https://github.com/DaanMatch/ngodata) repo
-
-- [] Read [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
+- [ ] Read through [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 
 ## Schedule 📅
 
 - [ ] Set up weekly team meeting times.
 - [ ] Set up weekly 1-to-1 meeting times.
+
+## Program Requirements
+
+1. Commit 6-12 hours per week to project. 1 unit of academic credit is available for every 3 hours of work per week.
+2. Required to submit a Mid-Term Progress Report and a final presentation during reading week.
+3. Required to respond to 4 short surveys throughout the semester.
 
 ## Slack Etiquette 💬
 
