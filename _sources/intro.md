@@ -1,7 +1,6 @@
-# Onboarding Overview 😀
+# Welcome to DaanMatch! 😀
 
 Welcome to DaanMatch! We're so glad to have you 😃\
-We are looking forward to meeting and working with you.\
 We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
 ## Day 1 - Thursday, September 16 2021 on [Google Meet](https://meet.google.com/zmi-vmny-zby)
@@ -17,7 +16,7 @@ On your first day, you'll dive into life at DaanMatch:
 The following days, the onboarding will allow you to train yourself gradually on:
 
 - The different tools and business processes that you will use every day
-- how to interact with your colleagues and our good practices
+- How to interact with your colleagues and our good practices
 
 ## Your Team 👥
 
@@ -84,7 +83,7 @@ pillerbrian56@gmail.com\
 - [ ] Set up weekly team meeting times.
 - [ ] Set up weekly 1-to-1 meeting times.
 
-## Program Requirements
+## Program Requirements for [DS Discovery](http://dsdiscovery.org/)
 
 1. Commit 6-12 hours per week to project. 1 unit of academic credit is available for every 3 hours of work per week.
 2. Required to submit a Mid-Term Progress Report and a final presentation during reading week.
