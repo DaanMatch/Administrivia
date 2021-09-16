@@ -12,12 +12,12 @@ On your first day, you'll dive into life at DaanMatch:
 - Discover some of the different administrative processes that will help you move quickly later on
 
 ### Meeting Agenda
-- Intro to DaanMatch, broad mission and what we are specifically trying to do in the next 3-6 months
-- Leadership team  2 min.s each - introductions and what brought them to DM
-- Community agreements/channels of communication 5 min.s
+- Intro to DaanMatch, broad mission. What we trying achieve in the next 3-6 months
+- Leadership team: introductions and what brought them to DM
+- Community agreements/channels of communication
 - General onboarding
-- Successful Internship model 5 min.s (Ranjeet will attach doc in thread for all to comment)
-- Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara) 10-15 min.s
+- Successful Internship model
+- Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara)
 
 ## Comunity Agreements
 [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
