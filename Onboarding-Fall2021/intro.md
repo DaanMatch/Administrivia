@@ -11,13 +11,13 @@ On your first day, you'll dive into life at DaanMatch:
 - Learn how DaanMatch operates
 - Discover some of the different administrative processes that will help you move quickly later on
 
-### Agenda
-Intro to DaanMatch, broad mission and what we are specifically trying to do in the next 3-6 months
-Leadership team  2 min.s each - introductions and what brought them to DM
-Community agreements/channels of communication 5 min.s
-General onboarding
-Successful Internship model 5 min.s (Ranjeet will attach doc in thread for all to comment)
-Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara) 10-15 min.s
+### Meeting Agenda
+- Intro to DaanMatch, broad mission and what we are specifically trying to do in the next 3-6 months
+- Leadership team  2 min.s each - introductions and what brought them to DM
+- Community agreements/channels of communication 5 min.s
+- General onboarding
+- Successful Internship model 5 min.s (Ranjeet will attach doc in thread for all to comment)
+- Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara) 10-15 min.s
 
 ## Comunity Agreements
 [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
@@ -30,26 +30,6 @@ Then break out into specific teams to discuss projects (Kenneth, Patrick and Ran
 4. **Make messsages skim friendly.** Use emojis and bullets to help people understand and better navigate your message.
 5. **Mind the channel's purpose.**
 6. **Use @mentions mindfully.** Avoid slack bombing/spamming.
-
-## Your Team 👥
-
-```{tabbed} Team Kenneth
-- Sehwa Ryu (Sophie)
-- Mitchell Wong
-- Apoorv Lawange
-```
-
-```{tabbed} Team Patrick
-- Ge Li (Donny)
-- Yunshen Song (Harry)
-- Sanik Malepati
-```
-
-```{tabbed} Team Ranjeet
-- Aileen Peralta
-- Haohan (Wayne) Wang
-- Mark Yang
-```
 
 ## Resources
 
@@ -86,5 +66,3 @@ pillerbrian56@gmail.com\
 1. Commit 6-12 hours per week to project. 1 unit of academic credit is available for every 3 hours of work per week.
 2. Required to submit a Mid-Term Progress Report and a final presentation during reading week.
 3. Required to respond to 4 short surveys throughout the semester.
-
-
