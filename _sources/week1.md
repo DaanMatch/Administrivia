@@ -37,3 +37,7 @@ The following days, the onboarding will allow you to train yourself gradually on
 - [ ] Share GitHub username
 - [ ] Request access to AWS Management Console
 - [ ] Read through [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
+
+## Resources
+- [GitHub](https://github.com/DaanMatch)
+- [AWS](https://aws.amazon.com/)

@@ -19,7 +19,7 @@ On your first day, you'll dive into life at DaanMatch:
 - Successful Internship model
 - Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara)
 
-## Comunity Agreements
+## Comunity Agreements 🤝
 [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 
 ```{admonition} Slack Etiquette 💬
@@ -32,8 +32,13 @@ On your first day, you'll dive into life at DaanMatch:
 6. **Use @mentions mindfully.** 
 ```
 
-## Resources
+## Resources ℹ️
+- [GitHub](https://github.com/DaanMatch)
+- [Linkedin](https://www.linkedin.com/company/daanmatch/)
+- [Faceboook](https://www.facebook.com/DaanMatch)
+- [Instagram](https://www.instagram.com/daanmatch/)
 
+### People
 ```{panels}
 :card: border-2
 Cara Foss Arellano
