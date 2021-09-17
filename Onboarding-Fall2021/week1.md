@@ -22,7 +22,6 @@ The following days, the onboarding will allow you to train yourself gradually on
 ```{tabbed} Team Ranjeet
 - Aileen Peralta
 - Haohan (Wayne) Wang
-- Mark Yang
 ```
 
 ## Schedule 📅
