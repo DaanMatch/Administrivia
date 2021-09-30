@@ -4,6 +4,7 @@ Welcome to DaanMatch! We're so glad to have you 😃\
 We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
 ## Day 1 - Thursday, September 16 2021 on [Google Meet](https://meet.google.com/zmi-vmny-zby)
+[Presentation Slides](https://docs.google.com/presentation/d/1T7dSSFRsFIdr7zFVxvabAea9KXNaxK_a/edit#slide=id.p6)
 
 On your first day, you'll dive into life at DaanMatch:
 
@@ -33,12 +34,7 @@ On your first day, you'll dive into life at DaanMatch:
 ```
 
 ## Resources ℹ️
-- [GitHub](https://github.com/DaanMatch)
-- [Linkedin](https://www.linkedin.com/company/daanmatch/)
-- [Faceboook](https://www.facebook.com/DaanMatch)
-- [Instagram](https://www.instagram.com/daanmatch/)
 
-### People
 ```{panels}
 :card: border-2
 Cara Foss Arellano
