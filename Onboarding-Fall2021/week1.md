@@ -1,27 +1,16 @@
 # Week 1
 
-The following days, the onboarding will allow you to train yourself gradually on:
+The following days, the onboarding will allow you to understand:
 
 - The different tools and business processes that you will use every day
 - How to interact with your colleagues and our good practices
 
 ## Your Team 👥
 
-```{tabbed} Team Kenneth
+```{tabbed} Project Lead -  Cara Arellano
 - Sehwa Ryu (Sophie)
 - Mitchell Wong
 - Apoorv Lawange
-```
-
-```{tabbed} Team Patrick
-- Ge Li (Donny)
-- Yunshen Song (Harry)
-- Sanik Malepati
-```
-
-```{tabbed} Team Ranjeet
-- Aileen Peralta
-- Haohan (Wayne) Wang
 ```
 
 ## Schedule 📅
@@ -32,6 +21,8 @@ The following days, the onboarding will allow you to train yourself gradually on
 ## Getting Set Up ✅
 
 - [ ] Join [DaanMatch Slack Workspace](https://join.slack.com/t/daanmatch/shared_invite/zt-vznkgg3o-RASqk0VxvaA0l9p1obpYSw)
+- [ ] Join #dsdiscovery-spring2022 channel on Slack.
+- [ ] Set up local environment (virtual environment)
 - [ ] Install Jupyter Lab/Notebook
 - [ ] Share GitHub username
 - [ ] Request access to AWS Management Console
