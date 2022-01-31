@@ -23,6 +23,7 @@ On your first day, you'll dive into life at DaanMatch:
 - Then break out into specific teams to discuss projects (Kenneth, Patrick and Ranjeet/Cara)
 
 ## Community Agreements 🤝
+
 [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 
 ```{admonition} Slack Etiquette 💬
