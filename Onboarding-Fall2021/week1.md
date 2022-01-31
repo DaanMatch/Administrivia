@@ -8,15 +8,15 @@ The following days, the onboarding will allow you to understand:
 ## Your Team 👥
 
 ```{tabbed} Project Lead -  Cara Arellano
-- Sehwa Ryu (Sophie)
-- Mitchell Wong
-- Apoorv Lawange
+DS Discovery Members: 
+TODO: FILL IN
 ```
 
 ## Schedule 📅
 
 - [ ] Set up weekly team meeting times.
-- [ ] Set up weekly 1-to-1 meeting times.
+- [ ] Set up OHs.
+- [ ] 1-1 meetings are by appointment.
 
 ## Getting Set Up ✅
 
@@ -27,7 +27,14 @@ The following days, the onboarding will allow you to understand:
 - [ ] Share GitHub username
 - [ ] Request access to AWS Management Console
 - [ ] Read through [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
+- [ ] Review Project List
 
 ## Resources
+
 - [GitHub](https://github.com/DaanMatch)
 - [AWS](https://aws.amazon.com/)
+
+```{note}
+Future communication will mainly be on Slack. Please turn on notifications and check frequently.
+{glue:figure}`sorted_means_fig`
+```

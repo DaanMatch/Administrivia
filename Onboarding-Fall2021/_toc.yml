@@ -5,3 +5,5 @@ format: jb-book
 root: intro-spring2022
 chapters:
 - file: week1
+- file: week2
+- file: project-list
