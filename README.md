@@ -18,4 +18,4 @@ Push HTML content to GitHub pages branch
 ghp-import -n -p -f _build/html
 ```
 # Onboarding
-[Onboarding document](https://daanmatch.github.io/Administrivia/)
+[Onboarding document](https://daanmatch.github.io/Administrivia/intro-spring2022.html)
