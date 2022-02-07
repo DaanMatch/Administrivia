@@ -26,7 +26,7 @@ Project Lead -  Cara Arellano
 - [ ] Read through [Daanmatch community agreements](https://docs.google.com/document/d/1Nsei6d38hpcNUd_XusSXsexxaE7faU-5qtLmnCELAo4/edit#)
 - [ ] Review Project List
 
-## Resources
+## Resources ℹ️
 
 - [GitHub](https://github.com/DaanMatch)
 - [AWS](https://aws.amazon.com/)

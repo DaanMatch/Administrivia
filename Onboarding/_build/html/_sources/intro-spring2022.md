@@ -11,7 +11,7 @@ On your first day, you'll dive into life at DaanMatch:
 - Learn how DaanMatch operates
 - Discover some of the different administrative processes that will help you move quickly later on
 
-### Meeting Agenda
+### Meeting Agenda 📅
 
 - Intro to DaanMatch, broad mission. What we trying achieve in the next few months.
 - Leadership team: introductions and what brought them to DM
