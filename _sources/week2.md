@@ -13,7 +13,7 @@ The following days, we want you to get familiar with the data you will be workin
 - [ ] Get familiar with project management tool
 - [ ] Prepare presentation for Week 3 on assigned data files.
 
-## Resources
+## Resources ℹ️
 
 - [Codebook Documentation](https://github.com/DaanMatch/Codebook)
 - [Geocoded Data](https://github.com/DaanMatch/ngodata/tree/main/geocoded_data)
