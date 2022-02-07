@@ -9,6 +9,8 @@ The following days, we want you to get familiar with the data you will be workin
 
 - [ ] Review GitHub Repositories
 - [ ] Apply to projects
+- [ ] Practice making pull requests
+- [ ] Get familiar with project management tool
 - [ ] Prepare presentation for Week 3 on assigned data files.
 
 ## Resources
