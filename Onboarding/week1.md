@@ -7,10 +7,7 @@ The following days, the onboarding will allow you to understand:
 
 ## Your Team 👥
 
-```{tabbed} Project Lead -  Cara Arellano
-DS Discovery Members: 
-TODO: FILL IN
-```
+Project Lead -  Cara Arellano
 
 ## Schedule 📅
 

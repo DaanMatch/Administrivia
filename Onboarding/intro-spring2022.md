@@ -3,7 +3,7 @@
 Welcome to DaanMatch! We're so glad to have you 😃\
 We have a set up a meeting on Thursday to get to know you better and for you to meet the rest of your team.
 
-## Day 1 - Feb 2022 on [Google Meet]()
+## Day 1
 
 On your first day, you'll dive into life at DaanMatch:
 
@@ -49,11 +49,6 @@ Patrick Guo
 ^^^
 guopatrick.comping@gmail.com\
 15107178380
----
-Ranjeet Tate
-^^^
-isaranjeet@gmail.com\
-17163521215
 ```
 
 ```{admonition} Program Requirements for [DS Discovery](http://dsdiscovery.org/)
