@@ -1,11 +1,12 @@
-# Database Project
+# Database Project - 1
 
 **Objective:** Using DaanMatch's Data Model, create a Schema and load DaanMatch data to database.
 
 ```{admonition} Patrick Contact Info
 OH: Tuesday: 6:30 - 8:00pm PST <br>
-Email: guopatrick.comping@gmail.com <br>
-GitHub: [shpatrickguo](https://github.com/shpatrickguo)
+Email: guopatrick.comping@gmail.com <br> 
+Mobile: 5107178380 <br>
+GitHub: [shpatrickguo](https://github.com/shpatrickguo) 
 ```
 
 ## This Week's Objective
@@ -86,17 +87,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 - [ ] [Follow Connection instructions on Codebook](https://github.com/DaanMatch/Codebook)
 
 ```{warning}
-Please keep login information private
-```
-
-```
-DaanMatch DS Discovery AWS Credentials = {
-  "User name": "dsdiscovery",
-  "Password": "^iBZ73|F^y2ru{N",
-  "Access key ID": "AKIAQE77SAWMUAG7CRUP",
-  "Secret access key": "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",
-  "Console login link": "https://010736502169.signin.aws.amazon.com/console"
-}
+Login information found in #team-shpg on Slack. Please keep login information private.
 ```
 
 - [ ] Run the following in Jupyter Notebook and submit in shpg-1 folder in [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
