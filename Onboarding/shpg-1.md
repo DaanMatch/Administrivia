@@ -1,11 +1,12 @@
-# Database Project
+# Database Project - 1
 
 **Objective:** Using DaanMatch's Data Model, create a Schema and load DaanMatch data to database.
 
 ```{admonition} Patrick Contact Info
 OH: Tuesday: 6:30 - 8:00pm PST <br>
-Email: guopatrick.comping@gmail.com <br>
-GitHub: [shpatrickguo](https://github.com/shpatrickguo)
+Email: guopatrick.comping@gmail.com <br> 
+Mobile: 5107178380 <br>
+GitHub: [shpatrickguo](https://github.com/shpatrickguo) 
 ```
 
 ## This Week's Objective
