@@ -27,7 +27,7 @@ GitHub: artmatru4b
 ---
 Apoorv Lawange
 ^^^
-apoorve.lawange@berkeley.edu
+apoorve.lawange@berkeley.edu <br>
 GitHub: ALaw30
 ````
 
@@ -118,7 +118,7 @@ df.head()
 - **Emily:** "InvestIndia.csv"
 - **Apoorv:** "helpyourngo.json"
 
-- [ ] <2 min presentation about your data
+**TODO:** <2 min presentation about your data
 
 ## Resources ℹ️
 
