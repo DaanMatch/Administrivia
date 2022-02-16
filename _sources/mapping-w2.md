@@ -3,7 +3,7 @@
 **Objective:** Map DaanMatch's Geocoded information using ArcGIS Online.
 
 ```{admonition} Cara Arellano Contact Info
-cara.arellano@berkeley.edu
+cara.arellano@berkeley.edu <br>
 Mobile: 4083935646 <br>
 GitHub: carellano67
 ```
@@ -19,19 +19,14 @@ Get familiar with how to get DaaMatch's data and ArcGIS Online.
 :card: border-2
 Zane Wang
 ^^^
-zelinewang@berkeley.edu
+zelinewang@berkeley.edu <br>
 GitHub: zelinewang
 ---
 Nei (Alex) Fang
 ^^^
-alex20020805@berkeley.edu
+alex20020805@berkeley.edu <br>
 GitHub: alex20020805
 ````
-
-:::{admonition} What is GIS?
-:class: tip, dropdown
-A [Geographic Information System (GIS)](https://www.usgs.gov/faqs/what-geographic-information-system-gis) is a computer system that analyzes and displays geographically referenced information. It uses data that is attached to a unique location.
-:::
 
 ## DaanMatch's data
 
@@ -60,7 +55,7 @@ Navigate to [geocoded_data directory](https://github.com/DaanMatch/ngodata/blob/
 
 ```{note}
 You can add other column information by modifying [GIS Data.ipynb](https://github.com/DaanMatch/ngodata/blob/main/geocoded_data/GIS%20Data.ipynb)
-To do this you will need access to DaanMatch's AWS S3, please contact Patrick G for more information.
+To do this you will need access to DaanMatch's AWS S3, please contact Patrick Guo for more information.
 ```
 
 **TODO:** <2 min presentation about one state file.
@@ -70,6 +65,11 @@ To do this you will need access to DaanMatch's AWS S3, please contact Patrick G 
 - [ ] How much information is missing?
 
 ## ArcGIS Online
+
+:::{admonition} What is GIS?
+:class: tip, dropdown
+A [Geographic Information System (GIS)](https://www.usgs.gov/faqs/what-geographic-information-system-gis) is a computer system that analyzes and displays geographically referenced information. It uses data that is attached to a unique location.
+:::
 
 :::{admonition} What is ArcGIS Online?
 :class: tip, dropdown
