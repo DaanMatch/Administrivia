@@ -5,7 +5,7 @@
 root: intro-spring2022
 format: jb-book
 defaults:
-  numbered: true
+  numbered: False
 chapters:
 - file: week1
 - file: week2

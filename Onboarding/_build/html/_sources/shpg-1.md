@@ -1,8 +1,36 @@
 # Database Project
 
-## Project objective
+**Objective:** Using DaanMatch's Data Model, create a Schema and load DaanMatch data to database.
 
-Using DaanMatch's Data Model, create a Schema and load DaanMatch data to database.
+```{admonition} Patrick Contact Info
+:class: tip
+OH: Tuesday: 6:30 - 8:00pm PST
+Email: [guopatrick.comping@gmail.com](mailto:guopatrick.comping@gmail.com)
+GitHub: [shpatrickguo](https://github.com/shpatrickguo)
+```
+
+## This Week's Objective
+
+Get familiar with DaaMatch's data model, data, GitHub, AWS and your team.
+
+````{panels}
+:column: col-4
+:card: border-2
+Meiyi (Emily) Ding
+^^^
+Email: emilyding@berkeley.edu
+GitHub: EmilyDing201
+---
+Arthi Matrubutham
+^^^
+Email: apm.butham8@berkeley.edu
+GitHub: artmatru4b
+---
+Apoorv Lawange
+^^^
+Email: apoorve.lawange@berkeley.edu
+GitHub: ALaw30
+````
 
 :::{admonition} What is a Data model?
 :class: tip, dropdown
@@ -14,7 +42,10 @@ A data model is an abstract model that organizes elements of data and standardiz
 A database is information that is set up for easy access, management and updating.
 :::
 
-## Data Model
+[What are database schemas?](https://www.educative.io/blog/what-are-database-schemas-examples)
+[Difference between primary and foreign key](https://www.geeksforgeeks.org/difference-between-primary-key-and-foreign-key/)
+
+## DaanMatch's Data Model
 
 :::{figure-md} Data-Model
 :class: myclass
@@ -30,14 +61,16 @@ DaanMatch is using GitHub for version control. Code submissions will be done thr
 
 **TODO:** To enable effective collaboration please download/review the following
 
-- [ ] Join [DaanMatch's GitHub organization](https://github.com/DaanMatch)
 - [ ] [Download Git](https://git-scm.com/downloads)
+- [ ] [Join DaanMatch's GitHub organization](https://github.com/DaanMatch)
 - [ ] [GitHub Desktop](https://desktop.github.com/) (Optional)
 - [ ] [Basic Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 - [ ] [Git Branching Naming conventions](https://codingsight.com/git-branching-naming-convention-best-practices/)
 - [ ] [How to write good commit messages](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
-**TODO:** Create a GitBranch and add your name to CONTRIBUTING.md on [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model).
+**TODO:** Clone [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
+
+- [ ] Create a GitBranch and add your name to CONTRIBUTING.md on [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model).
 
 ## How to get our data
 
@@ -49,12 +82,12 @@ DaanMatch's data files are stored on AWS S3.
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
 :::
 
-**TODO:**
+**TODO:** Load data from AWS S3 to Jupyter notebook.
 
-- [ ] [Follow Connection instructions on Codebook](Codebook Documentation](https://github.com/DaanMatch/Codebook)
+- [ ] [Follow Connection instructions on Codebook](https://github.com/DaanMatch/Codebook)
 
 ```
-{
+DaanMatch DS Discovery AWS Credentials = {
   "User name": "dsdiscovery",
   "Password": "^iBZ73|F^y2ru{N",
   "Access key ID": "AKIAQE77SAWMUAG7CRUP",
@@ -63,38 +96,30 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 }
 ```
 
-## Database
+- [ ] Run the following in Jupyter Notebook and submit in shpg-1 folder in [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
 
-DaanMatch is using
+```
+import pandas as pd
+import io
+import boto3
 
+client = boto3.client('s3')
+obj = client.get_object(Bucket='daanmatchdatafiles', Key='webscrape-fall2021/Final_IndiaNGO.csv')
+df = pd.read_csv(io.BytesIO(obj['Body'].read()), low_memory=False)
+df.head()
+```
 
-:::{admonition} What is SQL?
-:class: tip, dropdown
+### File Assignment
 
-Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.
-:::
+Arthi: "giveIndia - giveIndia.csv"
+Emily: "InvestIndia.csv"
+Apoorv: "helpyourngo.json"
 
-
-
-
-[Connect to AWS RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html)
+- [ ] <2 min presentation about your data
 
 ## Resources ℹ️
 
+- [DS Discovery Scheduling](https://docs.google.com/spreadsheets/d/1uwpQJ0VeinKC-fPI7-ZN-RinID5Y0VamjWiwza7-otY/edit#gid=1395204760)
 - [Codebook Documentation](https://github.com/DaanMatch/Codebook)
-- [Geocoded Data](https://github.com/DaanMatch/ngodata/tree/main/geocoded_data)
 - [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
 - [Webscrapers](https://github.com/DaanMatch/webscrape)
-- Data Files on AWS S3.
-
-**TRANSFORMATION** Shekar --> People + Member Tables (ONE PERSON)
-
-- Python: Data processing, cleaning, manipulation, transformation
-
-**TRANSFORMATION** Fall2021Webscrape --> Data Model (ONE PERSON)
-
-- Python: Data processing, cleaning, manipulation, transformation
-
-**DELIVERABLE** Load data to database - Allow for SQL queries (1 + 2 Together)
-
-- Python, SQL: DBMS
