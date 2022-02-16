@@ -9,7 +9,7 @@ Using DaanMatch's Data Model, create a Schema and load DaanMatch data to databas
 A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.
 :::
 
-:::{admonition} What is a Data model?
+:::{admonition} What is a Database?
 :class: tip, dropdown
 A database is information that is set up for easy access, management and updating.
 :::
@@ -50,6 +50,18 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 :::
 
 **TODO:**
+
+- [ ] [Follow Connection instructions on Codebook](Codebook Documentation](https://github.com/DaanMatch/Codebook)
+
+```
+{
+  "User name": "dsdiscovery",
+  "Password": "^iBZ73|F^y2ru{N",
+  "Access key ID": "AKIAQE77SAWMUAG7CRUP",
+  "Secret access key": "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",
+  "Console login link": "https://010736502169.signin.aws.amazon.com/console"
+}
+```
 
 ## Database
 
