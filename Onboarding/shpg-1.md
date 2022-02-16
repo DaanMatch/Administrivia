@@ -3,9 +3,8 @@
 **Objective:** Using DaanMatch's Data Model, create a Schema and load DaanMatch data to database.
 
 ```{admonition} Patrick Contact Info
-:class: tip
-OH: Tuesday: 6:30 - 8:00pm PST
-Email: [guopatrick.comping@gmail.com](mailto:guopatrick.comping@gmail.com)
+OH: Tuesday: 6:30 - 8:00pm PST <br>
+Email: guopatrick.comping@gmail.com <br>
 GitHub: [shpatrickguo](https://github.com/shpatrickguo)
 ```
 
@@ -18,17 +17,17 @@ Get familiar with DaaMatch's data model, data, GitHub, AWS and your team.
 :card: border-2
 Meiyi (Emily) Ding
 ^^^
-Email: emilyding@berkeley.edu
+emilyding@berkeley.edu
 GitHub: EmilyDing201
 ---
 Arthi Matrubutham
 ^^^
-Email: apm.butham8@berkeley.edu
+apm.butham8@berkeley.edu
 GitHub: artmatru4b
 ---
 Apoorv Lawange
 ^^^
-Email: apoorve.lawange@berkeley.edu
+apoorve.lawange@berkeley.edu
 GitHub: ALaw30
 ````
 
@@ -42,8 +41,8 @@ A data model is an abstract model that organizes elements of data and standardiz
 A database is information that is set up for easy access, management and updating.
 :::
 
-[What are database schemas?](https://www.educative.io/blog/what-are-database-schemas-examples)
-[Difference between primary and foreign key](https://www.geeksforgeeks.org/difference-between-primary-key-and-foreign-key/)
+- [What are database schemas?](https://www.educative.io/blog/what-are-database-schemas-examples)
+- [Difference between primary and foreign key](https://www.geeksforgeeks.org/difference-between-primary-key-and-foreign-key/)
 
 ## DaanMatch's Data Model
 
@@ -86,6 +85,10 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 
 - [ ] [Follow Connection instructions on Codebook](https://github.com/DaanMatch/Codebook)
 
+```{warning}
+Please keep login information private
+```
+
 ```
 DaanMatch DS Discovery AWS Credentials = {
   "User name": "dsdiscovery",
@@ -111,9 +114,9 @@ df.head()
 
 ### File Assignment
 
-Arthi: "giveIndia - giveIndia.csv"
-Emily: "InvestIndia.csv"
-Apoorv: "helpyourngo.json"
+- **Arthi:** "giveIndia - giveIndia.csv"
+- **Emily:** "InvestIndia.csv"
+- **Apoorv:** "helpyourngo.json"
 
 - [ ] <2 min presentation about your data
 
