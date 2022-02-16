@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4. Database Project &#8212; DaanMatch</title>
+    <title>Database Project &#8212; DaanMatch</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -106,7 +106,7 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   4. Database Project
+   Database Project
   </a>
  </li>
 </ul>
@@ -197,33 +197,35 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#project-objective">
-   4.1. Project objective
+  <a class="reference internal nav-link" href="#this-week-s-objective">
+   This Week’s Objective
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#data-model">
-   4.2. Data Model
+  <a class="reference internal nav-link" href="#daanmatch-s-data-model">
+   DaanMatch’s Data Model
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#git">
-   4.3. Git
+   Git
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#how-to-get-our-data">
-   4.4. How to get our data
+   How to get our data
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#database">
-   4.5. Database
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#file-assignment">
+     File Assignment
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#resources-i">
-   4.6. Resources ℹ️
+   Resources ℹ️
   </a>
  </li>
 </ul>
@@ -238,10 +240,54 @@
               <div>
                 
   <div class="section" id="database-project">
-<h1><span class="section-number">4. </span>Database Project<a class="headerlink" href="#database-project" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="project-objective">
-<h2><span class="section-number">4.1. </span>Project objective<a class="headerlink" href="#project-objective" title="Permalink to this headline">¶</a></h2>
-<p>Using DaanMatch’s Data Model, create a Schema and load DaanMatch data to database.</p>
+<h1>Database Project<a class="headerlink" href="#database-project" title="Permalink to this headline">¶</a></h1>
+<p><strong>Objective:</strong> Using DaanMatch’s Data Model, create a Schema and load DaanMatch data to database.</p>
+<div class="admonition-patrick-contact-info admonition">
+<p class="admonition-title">Patrick Contact Info</p>
+<p>OH: Tuesday: 6:30 - 8:00pm PST <br>
+Email: <a class="reference external" href="mailto:guopatrick&#46;comping&#37;&#52;&#48;gmail&#46;com">guopatrick<span>&#46;</span>comping<span>&#64;</span>gmail<span>&#46;</span>com</a> <br>
+GitHub: <a class="reference external" href="https://github.com/shpatrickguo">shpatrickguo</a></p>
+</div>
+<div class="section" id="this-week-s-objective">
+<h2>This Week’s Objective<a class="headerlink" href="#this-week-s-objective" title="Permalink to this headline">¶</a></h2>
+<p>Get familiar with DaaMatch’s data model, data, GitHub, AWS and your team.</p>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-4 docutils">
+<div class="card w-100 border-2 docutils">
+<div class="card-header docutils">
+<p class="card-text">Meiyi (Emily) Ding</p>
+</div>
+<div class="card-body docutils">
+<p class="card-text"><a class="reference external" href="mailto:emilyding&#37;&#52;&#48;berkeley&#46;edu">emilyding<span>&#64;</span>berkeley<span>&#46;</span>edu</a>
+GitHub: EmilyDing201</p>
+</div>
+</div>
+</div>
+<div class="d-flex col-4 docutils">
+<div class="card w-100 border-2 docutils">
+<div class="card-header docutils">
+<p class="card-text">Arthi Matrubutham</p>
+</div>
+<div class="card-body docutils">
+<p class="card-text"><a class="reference external" href="mailto:apm&#46;butham8&#37;&#52;&#48;berkeley&#46;edu">apm<span>&#46;</span>butham8<span>&#64;</span>berkeley<span>&#46;</span>edu</a>
+GitHub: artmatru4b</p>
+</div>
+</div>
+</div>
+<div class="d-flex col-4 docutils">
+<div class="card w-100 border-2 docutils">
+<div class="card-header docutils">
+<p class="card-text">Apoorv Lawange</p>
+</div>
+<div class="card-body docutils">
+<p class="card-text"><a class="reference external" href="mailto:apoorve&#46;lawange&#37;&#52;&#48;berkeley&#46;edu">apoorve<span>&#46;</span>lawange<span>&#64;</span>berkeley<span>&#46;</span>edu</a>
+GitHub: ALaw30</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">What is a Data model?</p>
 <p>A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.</p>
@@ -250,40 +296,51 @@
 <p class="admonition-title">What is a Database?</p>
 <p>A database is information that is set up for easy access, management and updating.</p>
 </div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.educative.io/blog/what-are-database-schemas-examples">What are database schemas?</a></p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/difference-between-primary-key-and-foreign-key/">Difference between primary and foreign key</a></p></li>
+</ul>
 </div>
-<div class="section" id="data-model">
-<h2><span class="section-number">4.2. </span>Data Model<a class="headerlink" href="#data-model" title="Permalink to this headline">¶</a></h2>
-<div class="myclass figure align-default" id="id1">
+<div class="section" id="daanmatch-s-data-model">
+<h2>DaanMatch’s Data Model<a class="headerlink" href="#daanmatch-s-data-model" title="Permalink to this headline">¶</a></h2>
+<div class="myclass figure align-default" id="data-model">
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/drawsql.png"><img alt="DaanMatch Data Model" class="bg-primary mb-1" src="_images/drawsql.png" style="width: 600px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4.1 </span><span class="caption-text">DaanMatch’s Data Model visualized using DrawSQL.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">DaanMatch’s Data Model visualized using DrawSQL.</span><a class="headerlink" href="#data-model" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="git">
-<h2><span class="section-number">4.3. </span>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h2>
+<h2>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h2>
 <p>DaanMatch is using GitHub for version control. Code submissions will be done through pull requests.</p>
 <p><strong>TODO:</strong> To enable effective collaboration please download/review the following</p>
 <ul class="simple">
-<li><p>[ ] Join <a class="reference external" href="https://github.com/DaanMatch">DaanMatch’s GitHub organization</a></p></li>
 <li><p>[ ] <a class="reference external" href="https://git-scm.com/downloads">Download Git</a></p></li>
+<li><p>[ ] <a class="reference external" href="https://github.com/DaanMatch">Join DaanMatch’s GitHub organization</a></p></li>
 <li><p>[ ] <a class="reference external" href="https://desktop.github.com/">GitHub Desktop</a> (Optional)</p></li>
 <li><p>[ ] <a class="reference external" href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging">Basic Git Branching</a></p></li>
 <li><p>[ ] <a class="reference external" href="https://codingsight.com/git-branching-naming-convention-best-practices/">Git Branching Naming conventions</a></p></li>
 <li><p>[ ] <a class="reference external" href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/">How to write good commit messages</a></p></li>
 </ul>
-<p><strong>TODO:</strong> Create a GitBranch and add your name to <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> on <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a>.</p>
+<p><strong>TODO:</strong> Clone <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p>
+<ul class="simple">
+<li><p>[ ] Create a GitBranch and add your name to <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> on <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a>.</p></li>
+</ul>
 </div>
 <div class="section" id="how-to-get-our-data">
-<h2><span class="section-number">4.4. </span>How to get our data<a class="headerlink" href="#how-to-get-our-data" title="Permalink to this headline">¶</a></h2>
+<h2>How to get our data<a class="headerlink" href="#how-to-get-our-data" title="Permalink to this headline">¶</a></h2>
 <p>DaanMatch’s data files are stored on AWS S3.</p>
 <div class="tip dropdown admonition">
 <p class="admonition-title">What is S3?</p>
 <p>Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.</p>
 </div>
-<p><strong>TODO:</strong></p>
+<p><strong>TODO:</strong> Load data from AWS S3 to Jupyter notebook.</p>
 <ul class="simple">
-<li><p>[ ] [Follow Connection instructions on Codebook](Codebook Documentation](<a class="reference external" href="https://github.com/DaanMatch/Codebook">https://github.com/DaanMatch/Codebook</a>)</p></li>
+<li><p>[ ] <a class="reference external" href="https://github.com/DaanMatch/Codebook">Follow Connection instructions on Codebook</a></p></li>
 </ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please keep login information private</p>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DaanMatch</span> <span class="n">DS</span> <span class="n">Discovery</span> <span class="n">AWS</span> <span class="n">Credentials</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s2">&quot;User name&quot;</span><span class="p">:</span> <span class="s2">&quot;dsdiscovery&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Password&quot;</span><span class="p">:</span> <span class="s2">&quot;^iBZ73|F^y2ru{N&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Access key ID&quot;</span><span class="p">:</span> <span class="s2">&quot;AKIAQE77SAWMUAG7CRUP&quot;</span><span class="p">,</span>
@@ -292,36 +349,36 @@
 <span class="p">}</span>
 </pre></div>
 </div>
+<ul class="simple">
+<li><p>[ ] Run the following in Jupyter Notebook and submit in shpg-1 folder in <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">io</span>
+<span class="kn">import</span> <span class="nn">boto3</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;s3&#39;</span><span class="p">)</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">Bucket</span><span class="o">=</span><span class="s1">&#39;daanmatchdatafiles&#39;</span><span class="p">,</span> <span class="n">Key</span><span class="o">=</span><span class="s1">&#39;webscrape-fall2021/Final_IndiaNGO.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s1">&#39;Body&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">read</span><span class="p">()),</span> <span class="n">low_memory</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
 </div>
-<div class="section" id="database">
-<h2><span class="section-number">4.5. </span>Database<a class="headerlink" href="#database" title="Permalink to this headline">¶</a></h2>
-<p>DaanMatch is using</p>
-<div class="tip dropdown admonition">
-<p class="admonition-title">What is SQL?</p>
-<p>Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.</p>
+<div class="section" id="file-assignment">
+<h3>File Assignment<a class="headerlink" href="#file-assignment" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Arthi:</strong> “giveIndia - giveIndia.csv”</p></li>
+<li><p><strong>Emily:</strong> “InvestIndia.csv”</p></li>
+<li><p><strong>Apoorv:</strong> “helpyourngo.json”</p></li>
+<li><p>[ ] &lt;2 min presentation about your data</p></li>
+</ul>
 </div>
-<p><a class="reference external" href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html">Connect to AWS RDS</a></p>
 </div>
 <div class="section" id="resources-i">
-<h2><span class="section-number">4.6. </span>Resources ℹ️<a class="headerlink" href="#resources-i" title="Permalink to this headline">¶</a></h2>
+<h2>Resources ℹ️<a class="headerlink" href="#resources-i" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1uwpQJ0VeinKC-fPI7-ZN-RinID5Y0VamjWiwza7-otY/edit#gid=1395204760">DS Discovery Scheduling</a></p></li>
 <li><p><a class="reference external" href="https://github.com/DaanMatch/Codebook">Codebook Documentation</a></p></li>
-<li><p><a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/geocoded_data">Geocoded Data</a></p></li>
 <li><p><a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p></li>
 <li><p><a class="reference external" href="https://github.com/DaanMatch/webscrape">Webscrapers</a></p></li>
-<li><p>Data Files on AWS S3.</p></li>
-</ul>
-<p><strong>TRANSFORMATION</strong> Shekar –&gt; People + Member Tables (ONE PERSON)</p>
-<ul class="simple">
-<li><p>Python: Data processing, cleaning, manipulation, transformation</p></li>
-</ul>
-<p><strong>TRANSFORMATION</strong> Fall2021Webscrape –&gt; Data Model (ONE PERSON)</p>
-<ul class="simple">
-<li><p>Python: Data processing, cleaning, manipulation, transformation</p></li>
-</ul>
-<p><strong>DELIVERABLE</strong> Load data to database - Allow for SQL queries (1 + 2 Together)</p>
-<ul class="simple">
-<li><p>Python, SQL: DBMS</p></li>
 </ul>
 </div>
 </div>
