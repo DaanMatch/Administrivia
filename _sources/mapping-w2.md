@@ -1,4 +1,4 @@
-# Database - w2
+# Mapping - w2
 
 **Objective:** Map DaanMatch's Geocoded information using ArcGIS Online.
 
@@ -22,7 +22,7 @@ Zane Wang
 zelinewang@berkeley.edu
 GitHub: zelinewang
 ---
-Nei (Alex) Fang	
+Nei (Alex) Fang
 ^^^
 alex20020805@berkeley.edu
 GitHub: alex20020805
