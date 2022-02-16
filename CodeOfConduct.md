@@ -8,7 +8,7 @@ community a harassment-free experience for all.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
 
-We belive that every mistake is an opportunit to learn.
+We believe that every mistake is an opportunity to learn.
 
 We believe everyone who acts in a way that supports their own self interest and the community self interest is a leader.
 
