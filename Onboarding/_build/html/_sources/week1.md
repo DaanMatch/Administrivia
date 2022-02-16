@@ -33,5 +33,4 @@ Project Lead -  Cara Arellano
 
 ```{note}
 Future communication will mainly be on Slack. Please turn on notifications and check frequently.
-{glue:figure}`sorted_means_fig`
 ```
