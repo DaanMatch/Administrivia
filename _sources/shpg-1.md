@@ -37,7 +37,9 @@ DaanMatch is using GitHub for version control. Code submissions will be done thr
 - [ ] [Git Branching Naming conventions](https://codingsight.com/git-branching-naming-convention-best-practices/)
 - [ ] [How to write good commit messages](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
-**TODO:** Create a GitBranch and add your name to CONTRIBUTING.md on [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model).
+**TODO:** Clone [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
+
+- [ ] Create a GitBranch and add your name to CONTRIBUTING.md on [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model).
 
 ## How to get our data
 
@@ -49,18 +51,32 @@ DaanMatch's data files are stored on AWS S3.
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
 :::
 
-**TODO:**
+**TODO:** Load data from AWS S3 to Jupyter notebook.
 
-- [ ] [Follow Connection instructions on Codebook](Codebook Documentation](https://github.com/DaanMatch/Codebook)
+- [ ] [Follow Connection instructions on Codebook](https://github.com/DaanMatch/Codebook)
 
 ```
-{
+DaanMatch DS Discovery AWS Credentials = {
   "User name": "dsdiscovery",
   "Password": "^iBZ73|F^y2ru{N",
   "Access key ID": "AKIAQE77SAWMUAG7CRUP",
   "Secret access key": "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",
   "Console login link": "https://010736502169.signin.aws.amazon.com/console"
 }
+```
+
+- [ ] Run the following in Jupyter Notebook and submit in shpg-1 folder in [Data Model](https://github.com/DaanMatch/ngodata/tree/main/Data%20Model)
+
+```
+import pandas as pd
+import io
+import boto3
+
+client = boto3.client('s3')
+obj = client.get_object(Bucket='daanmatchdatafiles', Key='webscrape-fall2021/Final_IndiaNGO.csv')
+df = pd.read_csv(io.BytesIO(obj['Body'].read()), low_memory=False,
+                 index_col=0)
+df.head()
 ```
 
 ## Database

@@ -270,7 +270,10 @@
 <li><p>[ ] <a class="reference external" href="https://codingsight.com/git-branching-naming-convention-best-practices/">Git Branching Naming conventions</a></p></li>
 <li><p>[ ] <a class="reference external" href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/">How to write good commit messages</a></p></li>
 </ul>
-<p><strong>TODO:</strong> Create a GitBranch and add your name to <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> on <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a>.</p>
+<p><strong>TODO:</strong> Clone <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p>
+<ul class="simple">
+<li><p>[ ] Create a GitBranch and add your name to <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> on <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a>.</p></li>
+</ul>
 </div>
 <div class="section" id="how-to-get-our-data">
 <h2><span class="section-number">4.4. </span>How to get our data<a class="headerlink" href="#how-to-get-our-data" title="Permalink to this headline">¶</a></h2>
@@ -279,17 +282,31 @@
 <p class="admonition-title">What is S3?</p>
 <p>Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.</p>
 </div>
-<p><strong>TODO:</strong></p>
+<p><strong>TODO:</strong> Load data from AWS S3 to Jupyter notebook.</p>
 <ul class="simple">
-<li><p>[ ] [Follow Connection instructions on Codebook](Codebook Documentation](<a class="reference external" href="https://github.com/DaanMatch/Codebook">https://github.com/DaanMatch/Codebook</a>)</p></li>
+<li><p>[ ] <a class="reference external" href="https://github.com/DaanMatch/Codebook">Follow Connection instructions on Codebook</a></p></li>
 </ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DaanMatch</span> <span class="n">DS</span> <span class="n">Discovery</span> <span class="n">AWS</span> <span class="n">Credentials</span> <span class="o">=</span> <span class="p">{</span>
   <span class="s2">&quot;User name&quot;</span><span class="p">:</span> <span class="s2">&quot;dsdiscovery&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Password&quot;</span><span class="p">:</span> <span class="s2">&quot;^iBZ73|F^y2ru{N&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Access key ID&quot;</span><span class="p">:</span> <span class="s2">&quot;AKIAQE77SAWMUAG7CRUP&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Secret access key&quot;</span><span class="p">:</span> <span class="s2">&quot;VoUldn/GDOqJHUsvyt8PQ2SudAvlNn8o5AKvMBx/&quot;</span><span class="p">,</span>
   <span class="s2">&quot;Console login link&quot;</span><span class="p">:</span> <span class="s2">&quot;https://010736502169.signin.aws.amazon.com/console&quot;</span>
 <span class="p">}</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>[ ] Run the following in Jupyter Notebook and submit in shpg-1 folder in <a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">io</span>
+<span class="kn">import</span> <span class="nn">boto3</span>
+
+<span class="n">client</span> <span class="o">=</span> <span class="n">boto3</span><span class="o">.</span><span class="n">client</span><span class="p">(</span><span class="s1">&#39;s3&#39;</span><span class="p">)</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get_object</span><span class="p">(</span><span class="n">Bucket</span><span class="o">=</span><span class="s1">&#39;daanmatchdatafiles&#39;</span><span class="p">,</span> <span class="n">Key</span><span class="o">=</span><span class="s1">&#39;webscrape-fall2021/Final_IndiaNGO.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">io</span><span class="o">.</span><span class="n">BytesIO</span><span class="p">(</span><span class="n">obj</span><span class="p">[</span><span class="s1">&#39;Body&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">read</span><span class="p">()),</span> <span class="n">low_memory</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                 <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
