@@ -5,6 +5,7 @@
 24 Feb 2022 6:45pm PST
 
 **Agenda:**
+
 1. Short EDA presentation
 2. AWS RDS Setup
 3. Connection to MySQL WorkBench
@@ -24,3 +25,9 @@ Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate
 :class: tip, dropdown
 MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL). A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or a place to hold the vast amounts of information in a corporate network.
 :::
+
+**TODO:** [Connect to DaanMatch's DB instance running the MySQL database engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html)
+
+```{note}
+End point and Port can be found in #team-shpg on Slack.
+```
