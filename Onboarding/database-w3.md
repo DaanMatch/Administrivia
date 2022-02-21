@@ -32,7 +32,7 @@ Get familiar with AWS RDS and MySQL.
 <img src="images/drawsql.png" alt="DaanMatch Data Model" class="bg-primary mb-1" width="600px">
 
 DaanMatch's Data Model visualized using DrawSQL. Last updated Feb 21 2022. <br>
-Changed id datatype from int to uuid. Redefined relationships.
+Changed id datatype from int to uuid. Redefined relationships. Added new field to reflect [most used social media platforms in India](https://www.theglobalstatistics.com/india-social-media-statistics/).
 :::
 
 :::{admonition} What is UUID?
