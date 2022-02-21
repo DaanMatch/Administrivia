@@ -208,13 +208,30 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#team-meeting">
-   Team Meeting
+  <a class="reference internal nav-link" href="#team-meeting-24-feb-2022-6-45pm-pst">
+   Team Meeting - 24 Feb 2022 6:45pm PST
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#this-week-s-objective">
    This Week’s Objective
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#daanmatch-s-data-model">
+   DaanMatch’s Data Model
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#model-assignment">
+     Model Assignment
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resources-i">
+   Resources ℹ️
   </a>
  </li>
 </ul>
@@ -230,9 +247,8 @@
                 
   <div class="section" id="database-w3">
 <h1>Database - w3<a class="headerlink" href="#database-w3" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="team-meeting">
-<h2><a class="reference external" href="https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09">Team Meeting</a><a class="headerlink" href="#team-meeting" title="Permalink to this headline">¶</a></h2>
-<p>24 Feb 2022 6:45pm PST</p>
+<div class="section" id="team-meeting-24-feb-2022-6-45pm-pst">
+<h2><a class="reference external" href="https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09">Team Meeting - 24 Feb 2022 6:45pm PST</a><a class="headerlink" href="#team-meeting-24-feb-2022-6-45pm-pst" title="Permalink to this headline">¶</a></h2>
 <p><strong>Agenda:</strong></p>
 <ol class="simple">
 <li><p>Short EDA presentation</p></li>
@@ -247,17 +263,43 @@
 <p>Get familiar with AWS RDS and MySQL.</p>
 <div class="tip dropdown admonition">
 <p class="admonition-title">What is AWS RDS?</p>
-<p>Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks, such as hardware provisioning, database setup, patching, and backups.</p>
+<p><a class="reference external" href="https://aws.amazon.com/rds/">Amazon Relational Database Service (Amazon RDS)</a> makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks, such as hardware provisioning, database setup, patching, and backups.</p>
 </div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">What is MySQL?</p>
-<p>MySQL is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL). A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or a place to hold the vast amounts of information in a corporate network.</p>
+<p><a class="reference external" href="https://www.talend.com/resources/what-is-mysql/">MySQL</a> is a relational database management system (RDBMS) developed by Oracle that is based on structured query language (SQL). A database is a structured collection of data. It may be anything from a simple shopping list to a picture gallery or a place to hold the vast amounts of information in a corporate network.</p>
 </div>
-<p><strong>TODO:</strong> <a class="reference external" href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ConnectToInstance.html">Connect to DaanMatch’s DB instance running the MySQL database engine</a></p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>End point and Port can be found in #team-shpg on Slack.</p>
 </div>
+<div class="section" id="daanmatch-s-data-model">
+<h2>DaanMatch’s Data Model<a class="headerlink" href="#daanmatch-s-data-model" title="Permalink to this headline">¶</a></h2>
+<div class="myclass figure align-default" id="data-model">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/drawsql.png"><img alt="DaanMatch Data Model" class="bg-primary mb-1" src="_images/drawsql.png" style="width: 600px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">DaanMatch’s Data Model visualized using DrawSQL. Last updated Feb 21 2022. <br>
+Changed id datatype from int to uuid.</span><a class="headerlink" href="#data-model" title="Permalink to this image">¶</a></p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">What is UUID?</p>
+<p><a class="reference external" href="https://www.educba.com/mysql-uuid/">Universally Unique Identifiers, or UUIDS</a>, are 128 bit numbers, composed of 16 octets and represented as 32 base-16 characters, that can be used to identify information across a computer system.</p>
+</div>
+<p><strong>TODO:</strong> <a class="reference external" href="https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-creating-a-model.html">Create a Model</a></p>
+<div class="section" id="model-assignment">
+<h3>Model Assignment<a class="headerlink" href="#model-assignment" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Arthi:</strong> registration_number, registration_office</p></li>
+<li><p><strong>Emily:</strong> finance, partnership</p></li>
+<li><p><strong>Apoorv:</strong> people, member</p></li>
+</ul>
+<p><strong>TODO:</strong> <a class="reference external" href="https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.">Export EER Script</a> and Save SQL Script onto data-model repository.</p>
+</div>
+</div>
+<div class="section" id="resources-i">
+<h2>Resources ℹ️<a class="headerlink" href="#resources-i" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1uwpQJ0VeinKC-fPI7-ZN-RinID5Y0VamjWiwza7-otY/edit#gid=1395204760">DS Discovery Scheduling</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DaanMatch/Codebook">Codebook Documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DaanMatch/ngodata/tree/main/Data%20Model">Data Model</a></p></li>
+<li><p><a class="reference external" href="https://github.com/DaanMatch/webscrape">Webscrapers</a></p></li>
+</ul>
 </div>
 </div>
 
