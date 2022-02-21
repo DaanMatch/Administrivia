@@ -48,7 +48,9 @@ Changed id datatype from int to uuid.
 - **Emily:** finance, partnership
 - **Apoorv:** people, member
 
-**TODO:** [Export EER Script](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and Save SQL Script onto data-model repository.
+**TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder shpg-2.
+
+**TODO:** [Schedule monthly 1-1 meeting](https://www.when2meet.com/?14683494-ODlVL) with Patrick.
 
 ## Resources ℹ️
 

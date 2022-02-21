@@ -59,7 +59,7 @@ DaanMatch's Data Model visualized using DrawSQL.
 
 DaanMatch is using GitHub for version control. Code submissions will be done through pull requests.
 
-**TODO:** To enable effective collaboration please download/review the following
+✅ **TODO:** To enable effective collaboration please download/review the following
 
 - [ ] [Download Git](https://git-scm.com/downloads)
 - [ ] [Join DaanMatch's GitHub organization](https://github.com/DaanMatch)
@@ -82,7 +82,7 @@ DaanMatch's data files are stored on AWS S3.
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
 :::
 
-**TODO:** Load data from AWS S3 to Jupyter notebook.
+✅ **TODO:** Load data from AWS S3 to Jupyter notebook.
 
 - [ ] [Follow Connection instructions on Codebook](https://github.com/DaanMatch/Codebook)
 
@@ -109,7 +109,7 @@ df.head()
 - **Emily:** "InvestIndia.csv"
 - **Apoorv:** "helpyourngo.json"
 
-**TODO:** <2 min presentation about your data
+✅ **TODO:** <2 min presentation about your data
 
 ## Resources ℹ️
 
