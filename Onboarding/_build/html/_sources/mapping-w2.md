@@ -32,13 +32,13 @@ GitHub: alex20020805
 
 DaanMatch Geocoded data is currently stored on GitHub.
 
-**TODO:** To access GitHub please have the following.
+✅ **TODO:** To access GitHub please have the following.
 
 - [ ] [Download Git](https://git-scm.com/downloads)
 - [ ] [Join DaanMatch's GitHub organization](https://github.com/DaanMatch)
 - [ ] [GitHub Desktop](https://desktop.github.com/) (Optional)
 
-**TODO:** Clone [NGO Data](https://github.com/DaanMatch/ngodata) <br>
+✅ **TODO:** Clone [NGO Data](https://github.com/DaanMatch/ngodata) <br>
 Navigate to [geocoded_data directory](https://github.com/DaanMatch/ngodata/blob/main/geocoded_data/GIS%20Data.ipynb).
 
 ### Information in each csv
@@ -58,7 +58,7 @@ You can add other column information by modifying [GIS Data.ipynb](https://githu
 To do this you will need access to DaanMatch's AWS S3, please contact Patrick Guo for more information.
 ```
 
-**TODO:** <2 min presentation about one state file.
+✅ **TODO:** <2 min presentation about one state file.
 
 - [ ] How many NGOs in this state?
 - [ ] What are more NGOs focusing on in this state?
@@ -78,7 +78,7 @@ A [Geographic Information System (GIS)](https://www.usgs.gov/faqs/what-geographi
 
 [UC Berkeley](https://guides.lib.berkeley.edu/gis/tools) provides free ArcGIS Online.
 
-**TODO:** Get familiar with ArcGIS Online.
+✅ **TODO:** Get familiar with ArcGIS Online.
 - [ ] [Getting Started with ArcGIS online](https://learn.arcgis.com/en/projects/get-started-with-arcgis-online/)
 
 ## Resources ℹ️

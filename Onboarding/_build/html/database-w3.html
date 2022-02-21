@@ -209,8 +209,15 @@
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#team-meeting-24-feb-2022-6-45pm-pst">
-   Team Meeting - 24 Feb 2022 6:45pm PST
+   📅 Team Meeting - 24 Feb 2022 6:45pm PST
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#agenda">
+     Agenda
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#this-week-s-objective">
@@ -221,13 +228,16 @@
   <a class="reference internal nav-link" href="#daanmatch-s-data-model">
    DaanMatch’s Data Model
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#model-assignment">
-     Model Assignment
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#model-assignment">
+   Model Assignment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#monthly-1-1-meetings">
+   Monthly 1-1 Meetings
+  </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#resources-i">
@@ -248,8 +258,9 @@
   <div class="section" id="database-w3">
 <h1>Database - w3<a class="headerlink" href="#database-w3" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="team-meeting-24-feb-2022-6-45pm-pst">
-<h2><a class="reference external" href="https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09">Team Meeting - 24 Feb 2022 6:45pm PST</a><a class="headerlink" href="#team-meeting-24-feb-2022-6-45pm-pst" title="Permalink to this headline">¶</a></h2>
-<p><strong>Agenda:</strong></p>
+<h2>📅 <a class="reference external" href="https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09">Team Meeting - 24 Feb 2022 6:45pm PST</a><a class="headerlink" href="#team-meeting-24-feb-2022-6-45pm-pst" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="agenda">
+<h3>Agenda<a class="headerlink" href="#agenda" title="Permalink to this headline">¶</a></h3>
 <ol class="simple">
 <li><p>Short EDA presentation</p></li>
 <li><p>AWS RDS Setup</p></li>
@@ -257,6 +268,7 @@
 <li><p>TODOs</p></li>
 <li><p>Questions</p></li>
 </ol>
+</div>
 </div>
 <div class="section" id="this-week-s-objective">
 <h2>This Week’s Objective<a class="headerlink" href="#this-week-s-objective" title="Permalink to this headline">¶</a></h2>
@@ -272,26 +284,29 @@
 </div>
 <div class="section" id="daanmatch-s-data-model">
 <h2>DaanMatch’s Data Model<a class="headerlink" href="#daanmatch-s-data-model" title="Permalink to this headline">¶</a></h2>
-<div class="myclass figure align-default" id="data-model">
+<div class="myclass figure align-default" id="data-model2">
 <a class="bg-primary mb-1 reference internal image-reference" href="_images/drawsql.png"><img alt="DaanMatch Data Model" class="bg-primary mb-1" src="_images/drawsql.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">DaanMatch’s Data Model visualized using DrawSQL. Last updated Feb 21 2022. <br>
-Changed id datatype from int to uuid.</span><a class="headerlink" href="#data-model" title="Permalink to this image">¶</a></p>
+Changed id datatype from int to uuid. Redefined relationships.</span><a class="headerlink" href="#data-model2" title="Permalink to this image">¶</a></p>
 </div>
 <div class="tip dropdown admonition">
 <p class="admonition-title">What is UUID?</p>
 <p><a class="reference external" href="https://www.educba.com/mysql-uuid/">Universally Unique Identifiers, or UUIDS</a>, are 128 bit numbers, composed of 16 octets and represented as 32 base-16 characters, that can be used to identify information across a computer system.</p>
 </div>
-<p><strong>TODO:</strong> <a class="reference external" href="https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-creating-a-model.html">Create a Model</a></p>
+</div>
 <div class="section" id="model-assignment">
-<h3>Model Assignment<a class="headerlink" href="#model-assignment" title="Permalink to this headline">¶</a></h3>
+<h2>Model Assignment<a class="headerlink" href="#model-assignment" title="Permalink to this headline">¶</a></h2>
+<p>✅ <strong>TODO:</strong> <a class="reference external" href="https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-creating-a-model.html">Create a Model</a></p>
 <ul class="simple">
 <li><p><strong>Arthi:</strong> registration_number, registration_office</p></li>
 <li><p><strong>Emily:</strong> finance, partnership</p></li>
 <li><p><strong>Apoorv:</strong> people, member</p></li>
 </ul>
-<p><strong>TODO:</strong> <a class="reference external" href="https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.">Export EER Script and .mwb file</a> and onto data-model repository in folder shpg-2.</p>
-<p><strong>TODO:</strong> <a class="reference external" href="https://www.when2meet.com/?14683494-ODlVL">Schedule monthly 1-1 meeting</a> with Patrick.</p>
+<p>✅ <strong>TODO:</strong> <a class="reference external" href="https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.">Export EER Script and .mwb file</a> and onto data-model repository in folder <a class="reference external" href="https://github.com/DaanMatch/data-model/tree/main/shpg-2">shpg-2</a> (example in folder).</p>
 </div>
+<div class="section" id="monthly-1-1-meetings">
+<h2>Monthly 1-1 Meetings<a class="headerlink" href="#monthly-1-1-meetings" title="Permalink to this headline">¶</a></h2>
+<p>✅ <strong>TODO:</strong> <a class="reference external" href="https://www.when2meet.com/?14683494-ODlVL">Schedule monthly 1-1 meeting</a> with Patrick.</p>
 </div>
 <div class="section" id="resources-i">
 <h2>Resources ℹ️<a class="headerlink" href="#resources-i" title="Permalink to this headline">¶</a></h2>

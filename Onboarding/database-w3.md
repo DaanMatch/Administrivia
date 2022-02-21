@@ -26,7 +26,7 @@ Get familiar with AWS RDS and MySQL.
 
 ## DaanMatch's Data Model
 
-:::{figure-md} Data-Model
+:::{figure-md} data-model2
 :class: myclass
 
 <img src="images/drawsql.png" alt="DaanMatch Data Model" class="bg-primary mb-1" width="600px">
