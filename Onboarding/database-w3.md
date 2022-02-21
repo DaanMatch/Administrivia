@@ -5,10 +5,9 @@
 ### Agenda
 
 1. Short EDA presentation
-2. AWS RDS Setup
-3. Connection to MySQL WorkBench
-4. TODOs
-5. Questions
+2. Introduction to AWS RDS and MySQL WorkBench
+3. Create Model Assignment
+4. Questions
 
 ## This Week's Objective
 
@@ -50,7 +49,7 @@ Will require domain knowledge of what each data field represents. Either web sea
 - **Emily:** finance, partnership
 - **Apoorv:** people, member
 
-✅ **TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder [shpg-2](https://github.com/DaanMatch/data-model/tree/main/shpg-2) (example in folder).
+✅ **TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder [shpg-2](https://github.com/DaanMatch/data-model/tree/main/shpg-2) (example in folder). You will be presenting on this in the next meeting.
 
 ### Example
 
