@@ -1,8 +1,8 @@
 # Database - w3
 
-## [Team Meeting - 24 Feb 2022 6:45pm PST](https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09)
+## 📅 [Team Meeting - 24 Feb 2022 6:45pm PST](https://us02web.zoom.us/j/4833516577?pwd=emgvY2xnSEF5Zlh4Si9kVkx3S0dzZz09)
 
-**Agenda:**
+### Agenda
 
 1. Short EDA presentation
 2. AWS RDS Setup
@@ -26,13 +26,13 @@ Get familiar with AWS RDS and MySQL.
 
 ## DaanMatch's Data Model
 
-:::{figure-md} Data-Model
+:::{figure-md} data-model2
 :class: myclass
 
 <img src="images/drawsql.png" alt="DaanMatch Data Model" class="bg-primary mb-1" width="600px">
 
 DaanMatch's Data Model visualized using DrawSQL. Last updated Feb 21 2022. <br>
-Changed id datatype from int to uuid.
+Changed id datatype from int to uuid. Redefined relationships.
 :::
 
 :::{admonition} What is UUID?
@@ -40,17 +40,19 @@ Changed id datatype from int to uuid.
 [Universally Unique Identifiers, or UUIDS](https://www.educba.com/mysql-uuid/), are 128 bit numbers, composed of 16 octets and represented as 32 base-16 characters, that can be used to identify information across a computer system.
 :::
 
-**TODO:** [Create a Model](https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-creating-a-model.html)
+## Model Assignment
 
-### Model Assignment
+✅ **TODO:** [Create a Model](https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-creating-a-model.html)
 
 - **Arthi:** registration_number, registration_office
 - **Emily:** finance, partnership
 - **Apoorv:** people, member
 
-**TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder shpg-2.
+✅ **TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder [shpg-2](https://github.com/DaanMatch/data-model/tree/main/shpg-2) (example in folder).
 
-**TODO:** [Schedule monthly 1-1 meeting](https://www.when2meet.com/?14683494-ODlVL) with Patrick.
+## Monthly 1-1 Meetings
+
+✅ **TODO:** [Schedule monthly 1-1 meeting](https://www.when2meet.com/?14683494-ODlVL) with Patrick.
 
 ## Resources ℹ️
 
