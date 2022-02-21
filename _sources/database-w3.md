@@ -57,7 +57,7 @@ Will require domain knowledge of what each data field represents. Either web sea
 :::{figure-md} EER_diagram_daanmatch_ngo
 :class: myclass
 
-<img src="images/EER_diagram_daanmatch_ngo.png" alt="EER diagram of daanmatch_ngo" class="bg-primary mb-1" width="600px">
+<img src="images/EER_diagram_daanmatch_ngo.png" alt="EER diagram of daanmatch_ngo" class="bg-primary mb-1">
 
 EER diagram of daanmatch_ngo on MySQL Workbench
 :::
