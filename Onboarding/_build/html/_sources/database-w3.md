@@ -45,9 +45,9 @@ Changed id datatype from int to uuid. Redefined relationships. Added new field t
 
 Will require domain knowledge of what each data field represents. Either web search or ask Cara Arellano for more information.
 
-- **Arthi:** registration_number, registration_office
-- **Emily:** finance, partnership
-- **Apoorv:** people, member
+- **Arthi:** registration_number, registration_office, finance
+- **Emily:** people, member
+- **Apoorv:** sector, partnership, field_data (will need to work with Emily to connect field_data with member)
 
 ✅ **TODO:** [Export EER Script and .mwb file](https://stackoverflow.com/questions/9609152/how-to-print-large-erd-diagrams-done-in-mysql-workbench#:~:text=Open%20your%20ERD%20and%20then,JPEG%20if%20you%20want%20to.) and onto data-model repository in folder [shpg-2](https://github.com/DaanMatch/data-model/tree/main/shpg-2) (example in folder). You will be presenting on this in the next meeting.
 
