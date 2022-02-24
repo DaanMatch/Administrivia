@@ -28,7 +28,7 @@ GitHub: artmatru4b
 ---
 Apoorv Lawange
 ^^^
-apoorve.lawange@berkeley.edu <br>
+apoorv.lawange@berkeley.edu <br>
 GitHub: ALaw30
 ````
 
