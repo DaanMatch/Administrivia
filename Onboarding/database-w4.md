@@ -11,8 +11,14 @@
 ### Suggested WorkFLow
 
 1. Experiment with Juypter
+
 2. Transfer to Python Script
-3. Execute with Python Script
+
+3. [Execute with Python Script](https://realpython.com/run-python-scripts/)
+
+[Example Transformations](https://github.com/DaanMatch/ngodata/blob/main/Data%20Model/DaanMatch_DataModel.ipynb)
+
+✅ **TODO:** Submit Transformation Notebook + Script + Output as CSV to shpg-3
 
 ### File Assignment
 
@@ -21,8 +27,3 @@
 - **Apoorv:** "webscrape-fall2021/helpyourngo.json" + "from Shekhar/Final_Data_Indiangoslist_v1.com.xlsx"
 - **Gabriel:** "webscrape-fall2021/Final_IndiaNGO.json" + from Shekhar/Final_Data_givingtuesdayindia.org.xlsx
 - **Andy:** "Darpan21FCRA/42621 Final_Data_ngodarpan.gov.in.xlsx"
-
-:::{admonition} What is a Data Fabric?
-:class: tip, dropdown
-A data fabric is an architecture and set of data services that provide consistent capabilities across a choice of endpoints spanning hybrid multicloud environments. It is a powerful architecture that standardizes data management practices and practicalities across cloud, on premises, and edge devices.
-:::

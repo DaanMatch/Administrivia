@@ -12,15 +12,18 @@ pip install myst-parser
 
 ## Updating Jupyter Book
 
-Rebuild HTML files 
+Rebuild HTML files:
+
 ```
 jb build <book name>
 ```
+
 Push HTML content to GitHub pages branch
+
 ```
 ghp-import -n -p -f _build/html
 ```
 
-# Onboarding
+## Onboarding
 
 [Onboarding document](https://daanmatch.github.io/Administrivia/intro-spring2022.html)
