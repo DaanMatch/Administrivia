@@ -11,7 +11,14 @@
 
 ### MySQL EER of all tables
 
+:::{figure-md} EER_diagram_daanmatch_datamodel
+:class: myclass
+
 <img src="images/final_EER.png" alt="EER diagram of datamodel" class="bg-primary mb-1">
+
+EER diagram of daanmatch datamodel on MySQL Workbench
+:::
+
 
 :::{admonition} How To Create Relationships In MySQL Workbench | Fedorae Education
 [Video Tutorial](https://www.youtube.com/watch?v=xd9OeA2hYgY&ab_channel=FedoraeEducation)
