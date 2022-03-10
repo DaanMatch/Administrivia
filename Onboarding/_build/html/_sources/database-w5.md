@@ -14,11 +14,10 @@
 :::{figure-md} EER_diagram_daanmatch_datamodel
 :class: myclass
 
-<img src="images/final_EER.png" alt="EER diagram of datamodel" class="bg-primary mb-1">
+<img src="images/daanmatch_datamodel.png" alt="EER diagram of datamodel" class="bg-primary mb-1">
 
 EER diagram of daanmatch datamodel on MySQL Workbench
 :::
-
 
 :::{admonition} How To Create Relationships In MySQL Workbench | Fedorae Education
 [Video Tutorial](https://www.youtube.com/watch?v=xd9OeA2hYgY&ab_channel=FedoraeEducation)
@@ -28,8 +27,9 @@ EER diagram of daanmatch datamodel on MySQL Workbench
 [Video Tutorial](https://youtu.be/dWJy6ZZylf0)
 :::
 
-:::{admonition} MySQL 18 - Intro to Normalization
-[Video Tutorial](https://youtu.be/TOwhX0IhLD8)
+:::{admonition} Database Normalization
+[Intro](https://youtu.be/TOwhX0IhLD8)
+[1-5 NF](https://youtu.be/GFQaEYEc8_8)
 :::
 
 ### File Assignment
